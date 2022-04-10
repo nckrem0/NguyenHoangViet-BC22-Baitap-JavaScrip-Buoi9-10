@@ -44,7 +44,7 @@ function DanhSachNhanVien (){
         var mangTimKiem =[] ;
         for (var i = 0; i < this.arr.length; i++){
             var nhanVien = this.arr[i];
-            if(nhanVien.tenSv.toLowerCase().indexOf(keywords.toLowerCase()) !== -1 ){
+            if(nhanVien.xepLoai.toLowerCase().indexOf(keywords.toLowerCase()) !== -1 ){
                 mangTimKiem.push(nhanVien);
             }
         }
